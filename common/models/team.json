@@ -17,7 +17,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "players": {
+      "type": "hasMany",
+      "model": "player",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
